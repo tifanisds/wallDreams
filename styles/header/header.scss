@@ -1,0 +1,37 @@
+@import "../variables.scss";
+
+.navbar {
+    background-color: $mainColor;
+    height: 70px
+}
+
+.categories {
+    @include spaceBetween;
+}
+
+.categories .nav-item {
+    margin-right: 19px;
+    color: $mainTextColor;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.logo {
+    color: $mainTextColor;
+    font-size: 20px;
+    font-weight: 700;
+    @include centerVertically();
+    
+}
+
+.logo img {
+    width: 30px;
+}
+
+.logo p {
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+
+
