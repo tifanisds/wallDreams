@@ -1,0 +1,57 @@
+@use "../variables" as *;
+
+body .title {
+    @include titles();
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+body .subtitle {
+    font-size: 17px;
+    font-weight: 400;
+    color: $secondaryTextColor;
+    @include centerHorizontally();
+}
+
+.search-button {
+    margin: 0 auto;
+    margin-top: 60px;
+    @include centerHorizontally();
+    width: 800px;
+}
+
+.search-button input {
+    margin-right: 0 !important;
+    border-radius: 14px 0 0 14px;
+    height: 60px;
+    background-color: #E8E8E8;
+}
+
+.search-button button {
+    width: 75px;
+    background-color: $mainColor;
+    border-radius: 0 14px 14px 0;
+    height: 60px;
+    
+}
+
+.search-button button svg {
+    width: 28px;
+    color: $mainTextColor;
+}
+
+.most-searched-categories {
+    font-family: 17px;
+    font-weight: 400;
+    color: $secondaryTextColor;
+    text-align: center;
+}
+
+.most-searched-categories span {
+    color: $mainColor;
+    font-weight: 700;
+    display: inline;
+}

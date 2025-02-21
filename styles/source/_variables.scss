@@ -21,3 +21,9 @@ $secondaryTextColor: #333333;
     display: flex;
     justify-content: space-between;
 }
+
+@mixin titles() {
+    font-size: 22px;
+    color: #333333;
+    font-weight: 700;
+}
