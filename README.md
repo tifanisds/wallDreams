@@ -1,6 +1,6 @@
 # 🌟 Walldreams
 
-![Walldreams Banner](https://via.placeholder.com/1000x300?text=Walldreams)
+![Preview wallDreams](.assets/img/preview/image.png)
 
 Walldreams é um **layout de site** para baixar wallpapers, desenvolvido com **HTML, CSS, SASS e Bootstrap**. O projeto busca oferecer uma interface **intuitiva e responsiva** para os usuários acessarem e baixarem imagens de alta qualidade.
 
