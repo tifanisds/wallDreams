@@ -1,0 +1,28 @@
+footer {
+  height: 240px;
+  background-color: #292929;
+}
+footer .logo {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+footer .logo img {
+  width: 30px;
+}
+footer .logo p {
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+footer .credits {
+  font-size: 14px;
+  color: #FFF;
+  text-align: center;
+  margin-top: 20px;
+}
+footer .credits span {
+  font-weight: 700;
+}/*# sourceMappingURL=footer.css.map */

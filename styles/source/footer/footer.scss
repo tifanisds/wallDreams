@@ -1,0 +1,37 @@
+@use "../variables" as *;
+
+footer {
+    height: 240px;
+    background-color: #292929;
+
+    .logo {
+            color: $mainTextColor;
+            font-size: 20px;
+            font-weight: 700;
+            @include centerHorizontally();
+            padding-top: 40px;
+
+            img {
+                width: 30px;
+            }
+            
+            p {
+                margin-bottom: 0px;
+                margin-left: 10px;
+            }
+            
+    }  
+    
+    .credits {
+        font-size: 14px;
+        color: $mainTextColor;
+        text-align: center;
+        margin-top: 20px;
+
+        span {
+            font-weight: 700;
+        }
+
+    }
+
+}
