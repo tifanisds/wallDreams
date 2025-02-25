@@ -5,33 +5,40 @@ header {
         background-color: $mainColor;
         height: 70px;
 
-        .logo {
-            color: $mainTextColor;
-            font-size: 20px;
-            font-weight: 700;
-            @include centerVertically();
-            
-            
-        img {
-            width: 30px;
-        }
+        .container-fluid {
+            @include spaceBetween();
+            padding-left: 30px;
+            padding-right: 30px;
 
-        p {
-            margin-bottom: 0px;
-            margin-left: 10px;
-        }
-        }
-
-        .categories {
-            @include spaceBetween;
-
-            .nav-item {
-                margin-right: 19px;
+            .logo {
                 color: $mainTextColor;
-                font-size: 14px;
+                font-size: 20px;
                 font-weight: 700;
+                @include centerVertically();
+                
+                img {
+                    width: 30px;
+                }
+        
+                p {
+                    margin-bottom: 0px;
+                    margin-left: 10px;
+                }
+
             }
-        }
+
+            .navbar-collapse {
+                flex-grow: 0;
+
+                .navbar-nav {
+                    .nav-item a {
+                        color: $mainTextColor;
+                        font-size: 14px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }     
     }
 }
 

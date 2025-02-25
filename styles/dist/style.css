@@ -2,26 +2,30 @@ header .navbar {
   background-color: #4EB577;
   height: 70px;
 }
-header .navbar .logo {
+header .navbar .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+header .navbar .container-fluid .logo {
   color: #FFF;
   font-size: 20px;
   font-weight: 700;
   display: flex;
   align-items: center;
 }
-header .navbar .logo img {
+header .navbar .container-fluid .logo img {
   width: 30px;
 }
-header .navbar .logo p {
+header .navbar .container-fluid .logo p {
   margin-bottom: 0px;
   margin-left: 10px;
 }
-header .navbar .categories {
-  display: flex;
-  justify-content: space-between;
+header .navbar .container-fluid .navbar-collapse {
+  flex-grow: 0;
 }
-header .navbar .categories .nav-item {
-  margin-right: 19px;
+header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item a {
   color: #FFF;
   font-size: 14px;
   font-weight: 700;
