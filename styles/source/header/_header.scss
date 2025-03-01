@@ -3,7 +3,7 @@
 header {
     .navbar {
         background-color: $mainColor;
-        height: 70px;
+        min-height: 70px;
 
         .container-fluid {
             @include spaceBetween();

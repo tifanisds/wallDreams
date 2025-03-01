@@ -1,6 +1,6 @@
 header .navbar {
   background-color: #4EB577;
-  height: 70px;
+  min-height: 70px;
 }
 header .navbar .container-fluid {
   display: flex;
@@ -31,7 +31,10 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item a {
   font-weight: 700;
 }
 
-.body .title {
+.search-container {
+  max-width: 900px !important;
+}
+.search-container .title {
   font-size: 22px;
   color: #333333;
   font-weight: 700;
@@ -41,48 +44,50 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item a {
   text-align: center;
   margin-top: 50px;
 }
-.body .subtitle {
+.search-container .subtitle {
   font-size: 17px;
   font-weight: 400;
   color: #333333;
+  text-align: center;
   display: flex;
   justify-content: center;
 }
-.body .search-button {
+.search-container .search-button {
   margin: 0 auto;
   margin-top: 60px;
   display: flex;
   justify-content: center;
   width: 800px;
 }
-.body .search-button input {
+.search-container .search-button input {
   margin-right: 0 !important;
   border-radius: 14px 0 0 14px;
   height: 60px;
   background-color: #E8E8E8;
 }
-.body .search-button button {
+.search-container .search-button button {
   width: 75px;
   background-color: #4EB577;
   border-radius: 0 14px 14px 0;
   height: 60px;
 }
-.body .search-button button svg {
+.search-container .search-button button svg {
   width: 28px;
   color: #FFF;
 }
-.body .most-searched-categories {
+.search-container .most-searched-categories {
   font-family: 17px;
   font-weight: 400;
   color: #333333;
   text-align: center;
   margin-top: 15px;
 }
-.body .most-searched-categories span {
+.search-container .most-searched-categories span {
   color: #4EB577;
   font-weight: 700;
   display: inline;
 }
+
 .body .releases {
   width: 900px;
   margin: 0 auto;

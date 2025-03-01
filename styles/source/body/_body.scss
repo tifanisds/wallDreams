@@ -1,6 +1,8 @@
 @use "../variables" as *;
 
-.body {
+.search-container {
+    max-width: 900px !important;
+
     .title {
         @include titles();
         display: flex;
@@ -14,6 +16,7 @@
         font-size: 17px;
         font-weight: 400;
         color: $secondaryTextColor;
+        text-align: center;
         @include centerHorizontally();
     }
 
@@ -59,6 +62,12 @@
 
 
     }
+
+}
+
+.body {
+    
+    
 
     .releases {
         width: 900px;
